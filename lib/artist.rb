@@ -17,4 +17,8 @@ class Artist
     Song.new(name, self, genre)
   end
 
+  def genres
+    songs.collect{|song| song.genre}.uniq
+  end
+
 end
