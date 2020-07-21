@@ -13,5 +13,5 @@ class Genre
   def all
     @@all
   end
-  
+
 end
