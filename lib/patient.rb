@@ -8,6 +8,7 @@ class Patient
   def initialize
     @date = date
     @patient = patient
+    @doctor = doctor
   end
 
 end
