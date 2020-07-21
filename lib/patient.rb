@@ -9,5 +9,5 @@ class Patient
     @date = date
     @patient = patient
   end
-  
+
 end
