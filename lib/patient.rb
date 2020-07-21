@@ -11,4 +11,6 @@ class Patient
     @doctor = doctor
   end
 
+  def self.all
+
 end
