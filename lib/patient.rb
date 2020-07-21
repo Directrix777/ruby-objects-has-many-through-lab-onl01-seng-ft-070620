@@ -5,10 +5,9 @@ class Patient
   attr_accessor :name
   @@all = []
 
-  def initialize
-    @date = date
-    @patient = patient
-    @doctor = doctor
+  def initialize(name)
+    @name = name
+    
   end
 
   def self.all
